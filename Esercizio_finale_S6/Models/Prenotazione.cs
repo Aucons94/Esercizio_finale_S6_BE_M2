@@ -116,12 +116,17 @@ namespace Esercizio_finale_S6.Models
             {
                 connection.Open();
                 string query = @"UPDATE Prenotazioni
-                        SET CodiceFiscale = @CodiceFiscale,
-                            NumeroCamera = @NumeroCamera,
-                            DataPrenotazione = @DataPrenotazione,
-                            DataInizioSoggiorno = @DataInizioSoggiorno,
-                            DataFineSoggiorno = @DataFineSoggiorno,
-                            WHERE IdPrenotazione = @IdPrenotazione";
+                     SET CodiceFiscale = @CodiceFiscale,
+                         NumeroCamera = @NumeroCamera,
+                         DataPrenotazione = @DataPrenotazione,
+                         DataInizioSoggiorno = @DataInizioSoggiorno,
+                         DataFineSoggiorno = @DataFineSoggiorno,
+                         CaparraConfirmatoria = @CaparraConfirmatoria,
+                         TariffaApplicata = @TariffaApplicata,
+                         MezzaPensione = @MezzaPensione,
+                         PensioneCompleta = @PensioneCompleta,
+                         PernottamentoPrimaColazione = @PernottamentoPrimaColazione
+                         WHERE IdPrenotazione = @IdPrenotazione";
 
                 using (SqlCommand cmd = new SqlCommand(query, connection))
                 {
@@ -129,7 +134,6 @@ namespace Esercizio_finale_S6.Models
                     cmd.Parameters.AddWithValue("@CodiceFiscale", CodiceFiscale);
                     cmd.Parameters.AddWithValue("@NumeroCamera", NumeroCamera);
                     cmd.Parameters.AddWithValue("@DataPrenotazione", DataPrenotazione);
-                    cmd.Parameters.AddWithValue("@Anno", Anno);
                     cmd.Parameters.AddWithValue("@DataInizioSoggiorno", DataInizioSoggiorno);
                     cmd.Parameters.AddWithValue("@DataFineSoggiorno", DataFineSoggiorno);
                     cmd.Parameters.AddWithValue("@CaparraConfirmatoria", CaparraConfirmatoria);
