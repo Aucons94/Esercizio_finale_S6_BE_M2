@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alessandro\\Desktop\\Back-end\\Mese 2\\Settimana 2\\Esercizio_finale\\Esercizio_finale_S6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9E8DA17-E774-45CD-8766-0A778810D1E6}|Esercizio_finale_S6\\Esercizio_finale_S6.csproj|c:\\users\\alessandro\\desktop\\back-end\\mese 2\\settimana 2\\esercizio_finale\\esercizio_finale_s6\\esercizio_finale_s6\\controllers\\queriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9E8DA17-E774-45CD-8766-0A778810D1E6}|Esercizio_finale_S6\\Esercizio_finale_S6.csproj|solutionrelative:esercizio_finale_s6\\controllers\\queriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9E8DA17-E774-45CD-8766-0A778810D1E6}|Esercizio_finale_S6\\Esercizio_finale_S6.csproj|c:\\users\\alessandro\\desktop\\back-end\\mese 2\\settimana 2\\esercizio_finale\\esercizio_finale_s6\\esercizio_finale_s6\\views\\queries\\queriespage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9E8DA17-E774-45CD-8766-0A778810D1E6}|Esercizio_finale_S6\\Esercizio_finale_S6.csproj|solutionrelative:esercizio_finale_s6\\views\\queries\\queriespage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9E8DA17-E774-45CD-8766-0A778810D1E6}|Esercizio_finale_S6\\Esercizio_finale_S6.csproj|c:\\users\\alessandro\\desktop\\back-end\\mese 2\\settimana 2\\esercizio_finale\\esercizio_finale_s6\\esercizio_finale_s6\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9E8DA17-E774-45CD-8766-0A778810D1E6}|Esercizio_finale_S6\\Esercizio_finale_S6.csproj|solutionrelative:esercizio_finale_s6\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9E8DA17-E774-45CD-8766-0A778810D1E6}|Esercizio_finale_S6\\Esercizio_finale_S6.csproj|c:\\users\\alessandro\\desktop\\back-end\\mese 2\\settimana 2\\esercizio_finale\\esercizio_finale_s6\\esercizio_finale_s6\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9E8DA17-E774-45CD-8766-0A778810D1E6}|Esercizio_finale_S6\\Esercizio_finale_S6.csproj|solutionrelative:esercizio_finale_s6\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9E8DA17-E774-45CD-8766-0A778810D1E6}|Esercizio_finale_S6\\Esercizio_finale_S6.csproj|c:\\users\\alessandro\\desktop\\back-end\\mese 2\\settimana 2\\esercizio_finale\\esercizio_finale_s6\\esercizio_finale_s6\\models\\prenotazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9E8DA17-E774-45CD-8766-0A778810D1E6}|Esercizio_finale_S6\\Esercizio_finale_S6.csproj|solutionrelative:esercizio_finale_s6\\models\\prenotazione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alessandro\\Desktop\\Back-end\\Mese 2\\Settimana 2\\Esercizio_finale\\Esercizio_finale_S6\\Esercizio_finale_S6\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Esercizio_finale_S6\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Alessandro\\Desktop\\Back-end\\Mese 2\\Settimana 2\\Esercizio_finale\\Esercizio_finale_S6\\Esercizio_finale_S6\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Esercizio_finale_S6\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T15:04:44.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alessandro\\Desktop\\Back-end\\Mese 2\\Settimana 2\\Esercizio_finale\\Esercizio_finale_S6\\Esercizio_finale_S6\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Esercizio_finale_S6\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Alessandro\\Desktop\\Back-end\\Mese 2\\Settimana 2\\Esercizio_finale\\Esercizio_finale_S6\\Esercizio_finale_S6\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Esercizio_finale_S6\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T15:04:40.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Prenotazione.cs",
+              "DocumentMoniker": "C:\\Users\\Alessandro\\Desktop\\Back-end\\Mese 2\\Settimana 2\\Esercizio_finale\\Esercizio_finale_S6\\Esercizio_finale_S6\\Models\\Prenotazione.cs",
+              "RelativeDocumentMoniker": "Esercizio_finale_S6\\Models\\Prenotazione.cs",
+              "ToolTip": "C:\\Users\\Alessandro\\Desktop\\Back-end\\Mese 2\\Settimana 2\\Esercizio_finale\\Esercizio_finale_S6\\Esercizio_finale_S6\\Models\\Prenotazione.cs",
+              "RelativeToolTip": "Esercizio_finale_S6\\Models\\Prenotazione.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T14:56:23.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QueriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Alessandro\\Desktop\\Back-end\\Mese 2\\Settimana 2\\Esercizio_finale\\Esercizio_finale_S6\\Esercizio_finale_S6\\Controllers\\QueriesController.cs",
+              "RelativeDocumentMoniker": "Esercizio_finale_S6\\Controllers\\QueriesController.cs",
+              "ToolTip": "C:\\Users\\Alessandro\\Desktop\\Back-end\\Mese 2\\Settimana 2\\Esercizio_finale\\Esercizio_finale_S6\\Esercizio_finale_S6\\Controllers\\QueriesController.cs",
+              "RelativeToolTip": "Esercizio_finale_S6\\Controllers\\QueriesController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwEEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T14:55:48.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QueriesPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Alessandro\\Desktop\\Back-end\\Mese 2\\Settimana 2\\Esercizio_finale\\Esercizio_finale_S6\\Esercizio_finale_S6\\Views\\Queries\\QueriesPage.cshtml",
+              "RelativeDocumentMoniker": "Esercizio_finale_S6\\Views\\Queries\\QueriesPage.cshtml",
+              "ToolTip": "C:\\Users\\Alessandro\\Desktop\\Back-end\\Mese 2\\Settimana 2\\Esercizio_finale\\Esercizio_finale_S6\\Esercizio_finale_S6\\Views\\Queries\\QueriesPage.cshtml",
+              "RelativeToolTip": "Esercizio_finale_S6\\Views\\Queries\\QueriesPage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-08T14:54:51.205Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

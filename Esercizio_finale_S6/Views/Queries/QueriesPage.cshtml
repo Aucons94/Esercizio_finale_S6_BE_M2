@@ -1,0 +1,36 @@
+﻿@model Esercizio_finale_S6.Controllers.QueriesController
+
+@{
+    ViewData["Title"] = "Ricerca Prenotazioni";
+}
+
+<h1>Ricerca Prenotazioni</h1>
+
+<form id="formGetPrenotazioneByCodiceFiscale" method="get">
+    <label for="codiceFiscale">Cerca per codice fiscale:</label>
+    <input type="text" id="codiceFiscale" name="codiceFiscale" />
+    <button type="submit">Cerca</button>
+</form>
+
+<div id="risultati">
+    <h2>Risultati ricerca</h2>
+
+</div>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $("#formGetPrenotazioneByCodiceFiscale").submit(function (e) {
+        e.preventDefault();
+
+        var codiceFiscale = $("#codiceFiscale").val();
+
+        $.ajax({
+            method: "GET",
+            data: { codiceFiscale: codiceFiscale },
+            success: function (data) {
+                var $risultati = $('<div>').addClass('risultati-ricerca');
+                $risultati.html(data);
+                $('#formGetPrenotazioneByCodiceFiscale').after($risultati);
+            } 
+        });
+    });
+</script>
