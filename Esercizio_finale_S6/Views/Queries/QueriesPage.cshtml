@@ -8,7 +8,7 @@
 
 <form id="formGetPrenotazioneByCodiceFiscale" method="get">
     <label for="codiceFiscale">Cerca per codice fiscale:</label>
-    <input type="text" id="codiceFiscale" name="codiceFiscale" />
+    <input type="text" id="CodiceFiscale" name="CodiceFiscale" />
     <button type="submit">Cerca</button>
 </form>
 
@@ -21,11 +21,12 @@
     $("#formGetPrenotazioneByCodiceFiscale").submit(function (e) {
         e.preventDefault();
 
-        var codiceFiscale = $("#codiceFiscale").val();
+        var codiceFiscale = $("#CodiceFiscale").val();
 
         $.ajax({
             method: "GET",
-            data: { codiceFiscale: codiceFiscale },
+            url: "/QueriesController/GetPrenotazioneByCodiceFiscale", 
+            data: { CodiceFiscale: CodiceFiscale },
             success: function (data) {
                 var $risultati = $('<div>').addClass('risultati-ricerca');
                 $risultati.html(data);

@@ -22,7 +22,7 @@ namespace Esercizio_finale_S6.Controllers
         {
             return View();
         }
-        public static async Task<Prenotazione> GetPrenotazioneByCodiceFiscale(string codiceFiscale)
+        public static async Task<Prenotazione> GetPrenotazioneByCodiceFiscale(string CodiceFiscale)
         {
             using (SqlConnection sqlConnection = new SqlConnection((new QueriesController()).GetConnectionString()))
             {
@@ -32,7 +32,7 @@ namespace Esercizio_finale_S6.Controllers
 
                 using (SqlCommand cmd = new SqlCommand(query, sqlConnection))
                 {
-                    cmd.Parameters.AddWithValue("@CodiceFiscale", codiceFiscale);
+                    cmd.Parameters.AddWithValue("@CodiceFiscale", CodiceFiscale);
 
                     using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                     {
